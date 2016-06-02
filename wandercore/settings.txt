@@ -1,0 +1,2 @@
+description=Wandercall high def isometric assets core mod
+game=wandercall

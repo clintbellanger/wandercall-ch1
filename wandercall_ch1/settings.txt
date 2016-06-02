@@ -1,0 +1,2 @@
+description=Wandercall chapter 1
+game=wandercall

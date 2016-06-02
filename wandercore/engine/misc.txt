@@ -1,0 +1,3 @@
+# Miscellaneous engine settings
+save_prefix=wandercall
+aim_assist=32
