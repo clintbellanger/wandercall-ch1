@@ -1,0 +1,15 @@
+# dungeon and ruins interior tile set
+
+img=images/tilesets/tileset_demo.png
+
+# 1x1 floor tiles
+tile=1,0,448,128,96,64,36
+
+# 2x2 floor tiles
+tile=2,0,256,256,192,64,84
+
+# 1x3 wall tiles
+tile=3,0,0,128,256,64,224
+tile=4,128,0,128,256,64,224
+tile=5,256,0,128,256,64,224
+
