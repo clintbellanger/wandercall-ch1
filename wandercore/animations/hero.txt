@@ -4,18 +4,23 @@
 # must meet the same frames, durations, types
 
 [stance]
-frames=4
-duration=800ms
+frames=8
+duration=1066ms
 type=back_forth
 
 [run]
 frames=8
-duration=533ms
+duration=1066ms
 type=looped
 
 [swing]
-frames=4
-duration=400ms
+frames=8
+duration=1066ms
+type=play_once
+
+[die]
+frames=8
+duration=1066ms
 type=play_once
 
 [cast]

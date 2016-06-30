@@ -1,0 +1,13 @@
+# tab 0
+[tab]
+title=Warrior
+
+### Warrior Tab ###############################################################
+# swing
+[power]
+id=1
+tab=0
+position=48,80
+requires_physical=1
+#upgrades=20
+
