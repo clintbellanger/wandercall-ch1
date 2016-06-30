@@ -9,5 +9,12 @@ id=1
 tab=0
 position=48,80
 requires_physical=1
-#upgrades=20
+
+# suicide
+[power]
+id=2
+tab=0
+position=120,80
+requires_physical=1
+
 

@@ -1,0 +1,9 @@
+[effect]
+id=heal
+type=heal
+icon=11
+can_stack=false
+
+[effect]
+id=hp_restore
+type=hpot_percent

@@ -9,4 +9,4 @@ location=0,0,3
 [event]
 type=on_load
 location=0,0,1,1
-intermap=maps/test.txt,10,10
+intermap=maps/test.txt,5,5

@@ -1,27 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="isometric" renderorder="right-down" width="20" height="20" tilewidth="128" tileheight="64" nextobjectid="1">
- <layer name="Tile Layer 1" width="20" height="20">
-  <data encoding="csv">
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-</data>
+ <properties>
+  <property name="tileset" value="tilesetdefs/tileset_demo.txt"/>
+ </properties>
+ <tileset firstgid="1" name="floor_1x1.png" tilewidth="128" tileheight="96" tilecount="1" columns="1">
+  <tileoffset x="0" y="28"/>
+  <image source="../../../wandercall-assets/tiles/templates/examples/floor_1x1.png" width="128" height="96"/>
+ </tileset>
+ <tileset firstgid="2" name="floor_2x2.png" tilewidth="256" tileheight="192" tilecount="1" columns="1">
+  <tileoffset x="0" y="76"/>
+  <image source="../../../wandercall-assets/tiles/templates/examples/floor_2x2.png" width="256" height="192"/>
+ </tileset>
+ <tileset firstgid="3" name="tall_walls.png" tilewidth="128" tileheight="256" tilecount="4" columns="4">
+  <image source="../../../wandercall-assets/tiles/templates/examples/tall_walls.png" width="512" height="256"/>
+ </tileset>
+ <layer name="background" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFIMBIoX4mNJpS89ABrd3HSKIdjFgwJeYRax85gAmL2GBxH0gPNd1Hi3SHnnbQ6VEwcgEAn4gALQ==
+  </data>
+ </layer>
+ <layer name="object" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBiZgAWIWdEwJYCZYhcNrHmk2kdt8yi1b6iaN1jcQS/zRsHwAgAGHwA9
+  </data>
+ </layer>
+ <layer name="collision" width="20" height="20" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBiZgBEHpsQ8YsSoZR6pbibGPFzq6GUeun8oMQ+fGYPZPPRwIDVdEqN2oM0jBo+CoQEAwzgAOQ==
+  </data>
  </layer>
 </map>

@@ -12,3 +12,21 @@ lifespan=33ms
 radius=1.0
 starting_pos=melee
 aim_assist=true
+
+[power]
+id=2
+name=Suicide
+description=Debug for testing death
+type=fixed
+icon=12
+new_state=instant
+use_hazard=true
+source_type=neutral
+base_damage=melee
+lifespan=600ms
+radius=1.0
+starting_pos=source
+multitarget=true
+modifier_damage=multiply,9999,0
+
+

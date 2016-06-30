@@ -23,8 +23,8 @@ stat_per_defense=avoidance,5
 stat=crit,5
 stat_per_level=crit,1
 
-stat=dmg_melee_min,0
-stat=dmg_melee_max,15
+stat=dmg_melee_min,10
+stat=dmg_melee_max,50
 stat_per_physical=dmg_melee_min,5
 stat_per_physical=dmg_melee_max,5
 
