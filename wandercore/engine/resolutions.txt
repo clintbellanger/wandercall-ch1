@@ -5,7 +5,8 @@ menu_frame_height=480
 
 icon_size=32
 
-required_width=1280
-required_height=720
+required_width=960
+required_height=600
 
-virtual_height=720
+virtual_height=600
+virtual_width=960

@@ -15,4 +15,3 @@ step=soundfx/steps/step_metal1.ogg
 step=soundfx/steps/step_metal2.ogg
 step=soundfx/steps/step_metal3.ogg
 step=soundfx/steps/step_metal4.ogg
-

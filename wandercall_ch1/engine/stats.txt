@@ -43,6 +43,6 @@ stat_per_offense=dmg_ranged_max,5
 stat_per_defense=absorb_min,5
 stat_per_defense=absorb_max,5
 
-speed=3.5
+speed=4
 
-#sfx_step=cloth
+sfx_step=cloth

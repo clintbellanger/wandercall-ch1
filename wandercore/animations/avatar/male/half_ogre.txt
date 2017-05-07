@@ -1,0 +1,31 @@
+# This is a demonstration template file, not loaded by the engine.
+# Use this file when creating an unpacked fantasycore avatar animation
+
+image=images/enemies/half_ogre.png
+
+render_size=128,128
+render_offset=64,96
+
+[stance]
+position=0
+frames=8
+duration=1066ms
+type=looped
+
+[run]
+position=8
+frames=8
+duration=1066ms
+type=looped
+
+[swing]
+position=16
+frames=8
+duration=1066ms
+type=play_once
+
+[die]
+position=24
+frames=8
+duration=1066ms
+type=play_once

@@ -5,17 +5,17 @@
 
 [stance]
 frames=8
-duration=1066ms
+duration=1260ms
 type=back_forth
 
 [run]
 frames=8
-duration=1066ms
+duration=600ms
 type=looped
 
 [swing]
 frames=8
-duration=1066ms
+duration=600ms
 type=play_once
 
 [die]
