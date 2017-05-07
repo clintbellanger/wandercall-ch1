@@ -41,10 +41,5 @@ active_frame=0
 
 [hit]
 frames=2
+type=play_once
 duration=133ms
-type=play_once
-
-[die]
-frames=6
-duration=800ms
-type=play_once

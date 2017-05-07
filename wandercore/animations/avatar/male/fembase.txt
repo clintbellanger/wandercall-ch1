@@ -29,3 +29,9 @@ position=24
 frames=8
 duration=1066ms
 type=play_once
+
+[hit]
+position=24
+frames=2
+duration=133ms
+type=play_once

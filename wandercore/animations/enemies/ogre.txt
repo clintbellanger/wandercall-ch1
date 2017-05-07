@@ -1,27 +1,33 @@
 # This is a demonstration template file, not loaded by the engine.
 # Use this file when creating an unpacked fantasycore avatar animation
 
-image=images/enemies/fembase.png
+image=images/enemies/ogre.png
 
 render_size=256,256
-render_offset=128,224
+render_offset=128,192
 
 [stance]
 position=0
 frames=8
-duration=1260ms
+duration=1066ms
 type=looped
 
 [run]
 position=8
 frames=8
-duration=600ms
+duration=1066ms
 type=looped
 
 [swing]
 position=16
 frames=8
-duration=600ms
+duration=1066ms
+type=play_once
+
+[hit]
+position=24
+frames=1
+duration=133ms
 type=play_once
 
 [die]
@@ -30,8 +36,8 @@ frames=8
 duration=1066ms
 type=play_once
 
-[hit]
+[critdie]
 position=24
-frames=2
-duration=133ms
+frames=8
+duration=1066ms
 type=play_once

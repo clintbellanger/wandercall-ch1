@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="isometric" renderorder="right-down" width="20" height="20" tilewidth="128" tileheight="64" nextobjectid="1">
+<map version="1.0" orientation="isometric" renderorder="right-down" width="20" height="20" tilewidth="128" tileheight="64" nextobjectid="3">
  <properties>
   <property name="tileset" value="tilesetdefs/tileset_demo.txt"/>
  </properties>
@@ -29,4 +29,11 @@
    eJxjYBiZgBEHpsQ8YsSoZR6pbibGPFzq6GUeun8oMQ+fGYPZPPRwIDVdEqN2oM0jBo+CoQEAwzgAOQ==
   </data>
  </layer>
+ <objectgroup name="enemy">
+  <object id="2" type="enemy" x="704" y="384" width="64" height="64">
+   <properties>
+    <property name="category" value="ogre"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>
