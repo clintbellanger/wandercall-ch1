@@ -15,7 +15,7 @@ type=looped
 [run]
 position=8
 frames=8
-duration=1066ms
+duration=800ms
 type=looped
 
 [swing]
