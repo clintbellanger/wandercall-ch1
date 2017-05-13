@@ -24,7 +24,7 @@ chance_pursue=10
 melee_range=1.1875
 threat_range=8.0
 
-# power=melee,1,10
+power=melee,3,10
 
 stat=accuracy,90
 stat=avoidance,0
@@ -33,5 +33,5 @@ stat=dmg_melee_min,15
 stat=dmg_melee_max,25
 cooldown=1s
 
-#cooldown_hit=266ms
+cooldown_hit=266ms
 

@@ -7,3 +7,8 @@ can_stack=false
 [effect]
 id=hp_restore
 type=hpot_percent
+
+[effect]
+id=knockback
+type=knockback
+can_stack=false

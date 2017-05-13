@@ -13,6 +13,7 @@ radius=1.0
 starting_pos=melee
 aim_assist=true
 soundfx_hit=soundfx/powers/melee_damage.ogg
+post_effect=knockback,5,50ms
 
 [power]
 id=2
@@ -30,4 +31,19 @@ starting_pos=source
 multitarget=true
 modifier_damage=multiply,9999,0
 
-
+[power]
+id=3
+name=Force Strike
+type=fixed
+icon=1
+description=Melee attack with knockback
+new_state=swing
+face=true
+use_hazard=true
+base_damage=melee
+lifespan=33ms
+radius=1.0
+starting_pos=melee
+aim_assist=true
+soundfx_hit=soundfx/powers/melee_damage.ogg
+post_effect=knockback,8,100ms
