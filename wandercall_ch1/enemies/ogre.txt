@@ -1,5 +1,3 @@
-
-
 name=Ogre
 level=1
 categories=ogre,ruins
@@ -26,13 +24,14 @@ chance_pursue=10
 melee_range=1.1875
 threat_range=8.0
 
-power=melee,1,10
+# power=melee,1,10
 
-stat=accuracy,80
-stat=avoidance,10
+stat=accuracy,90
+stat=avoidance,0
 
 stat=dmg_melee_min,15
 stat=dmg_melee_max,25
 cooldown=1s
 
+#cooldown_hit=266ms
 
