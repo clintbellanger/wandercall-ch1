@@ -2,49 +2,24 @@
 # the first two values are x,y positions
 # some items have two more values, width and height
 
-pos=0,0,320,416
+pos=0,0,480,512
 align=right
-soundfx_open=soundfx/inventory/inventory_page.ogg
-soundfx_close=soundfx/inventory/inventory_book.ogg
+#soundfx_open=soundfx/inventory/inventory_page.ogg
+#soundfx_close=soundfx/inventory/inventory_book.ogg
 
-close=294,2
-help=2,2,24,24
+close=420,36
+help=36,36,24,24
 
-# define x,y position, slot size, slot type
-equipment_slot=96,64,32,hands
-slot_name=Hands
+# define x,y position, slot type
+#equipment_slot=80,112,head
+#equipment_slot=144,112,chest
+#equipment_slot=208,112,legs
+#equipment_slot=272,112,hands
+#equipment_slot=336,112,feet
 
-equipment_slot=96,112,32,ring
-slot_name=Ring
+carried_area=48,272
+carried_cols=6
+carried_rows=3
 
-equipment_slot=96,160,32,main
-slot_name=Main Hand
-
-equipment_slot=144,32,32,head
-slot_name=Head
-
-equipment_slot=144,80,32,chest
-slot_name=Torso
-
-equipment_slot=144,128,32,legs
-slot_name=Legs
-
-equipment_slot=144,176,32,feet
-slot_name=Feet
-
-equipment_slot=192,64,32,artifact
-slot_name=Artifact
-
-equipment_slot=192,112,32,ring
-slot_name=Ring
-
-equipment_slot=192,160,32,off
-slot_name=Off Hand
-
-carried_area=32,224
-carried_cols=8
-carried_rows=5
-
-label_title=160,8,center,top
-currency=288,208,right,center
-
+label_title=240,60,center,top
+currency=420,256,right,center

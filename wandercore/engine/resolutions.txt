@@ -1,12 +1,12 @@
 # Screen and icon resolution settings
 
-menu_frame_width=640
-menu_frame_height=480
+menu_frame_width=960
+menu_frame_height=720
 
-icon_size=32
+icon_size=64
 
 required_width=960
-required_height=600
+required_height=720
 
-virtual_height=600
-virtual_width=960
+virtual_height=720
+
