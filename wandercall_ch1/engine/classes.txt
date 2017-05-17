@@ -41,6 +41,6 @@ actionbar=0,0,0,0,0,0,0,0,0,0,1,2
 # Str gear    = Strength
 # Dex gear    = Dexterity
 # Int gear    = Intelligence
-# Heavy stuff = Burden
+# Heavy stuff = Defense
 
 

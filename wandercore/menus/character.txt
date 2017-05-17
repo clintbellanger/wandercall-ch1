@@ -7,7 +7,7 @@ align=left
 soundfx_open=soundfx/inventory/inventory_page.ogg
 soundfx_close=soundfx/inventory/inventory_book.ogg
 
-close=420,36
+close=430,22
 label_title=240,60,center,top
 
 upgrade_physical=40,56
@@ -15,8 +15,8 @@ upgrade_mental=40,80
 upgrade_offense=40,104
 upgrade_defense=40,128
 
-statlist=24,152
-statlist_rows=11
+statlist=192,128
+statlist_rows=15
 statlist_scrollbar_offset=1
 
 name=80,32,104,16

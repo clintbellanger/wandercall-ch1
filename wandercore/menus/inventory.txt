@@ -7,7 +7,7 @@ align=right
 soundfx_open=soundfx/inventory/inventory_page.ogg
 soundfx_close=soundfx/inventory/inventory_book.ogg
 
-close=420,36
+close=430,22
 help=36,36,24,24
 
 # define x,y position, slot type

@@ -7,7 +7,7 @@ align=left
 soundfx_open=soundfx/wood_open.ogg
 
 label_title=240,60,center,top
-close=420,36
+close=430,22
 currency=288,48,right,center
 
 slots_area=48,80
