@@ -17,6 +17,12 @@ equipment_slot=208,112,legs
 equipment_slot=272,112,hands
 equipment_slot=336,112,feet
 
+equipment_slot=80,176,main
+equipment_slot=144,176,off
+equipment_slot=208,176,ring
+equipment_slot=272,176,ring
+equipment_slot=336,176,artifact
+
 carried_area=48,272
 carried_cols=6
 carried_rows=3

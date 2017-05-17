@@ -1,0 +1,27 @@
+[item]
+id=10
+name=Runed Sword
+quality=epic
+item_type=main
+equip_flags=melee
+icon=40
+soundfx=soundfx/inventory/inventory_metal.ogg
+gfx=shortsword
+loot_animation=animations/loot/shortsword.txt
+dmg_melee=15,40
+#requires_stat=physical,3
+price=100
+
+[item]
+id=11
+name=Iron Buckler
+quality=normal
+item_type=off
+equip_flags=shield
+icon=31
+soundfx=soundfx/inventory/inventory_wood.ogg
+gfx=iron_buckler
+loot_animation=animations/loot/buckler.txt
+abs=5,15
+#requires_stat=defense,3
+price=140

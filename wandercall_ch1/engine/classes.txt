@@ -1,0 +1,46 @@
+# Hero classes
+# name must be first
+# physical/mental/offense/defense points should total to no greater than the max available points
+
+[class]
+name=Butcher
+description=Surgical with a knife. Not afraid of a little blood.
+# +skill use, bleed skill
+#currency=144
+equipment=10,11
+primary=dexterity,1
+actionbar=0,0,0,0,0,0,0,0,0,0,1,2
+
+[class]
+name=Lumberjack
+description=Carries an axe. Tough as nails.
+#currency=144
+equipment=10,11
+primary=vitality,1
+actionbar=0,0,0,0,0,0,0,0,0,0,1,2
+
+[class]
+name=Blacksmith
+description=Swings a heavy hammer. Stronger than most.
+#currency=144
+equipment=10,11
+primary=strength,1
+actionbar=0,0,0,0,0,0,0,0,0,0,1,2
+
+[class]
+name=Guard
+description=Wields a baton and shield. Prefers defense.
+#currency=144
+equipment=10,11
+primary=burden,1
+actionbar=0,0,0,0,0,0,0,0,0,0,1,2
+
+
+# Health      = Vigor
+# MP/Stam     = Attunement
+# Str gear    = Strength
+# Dex gear    = Dexterity
+# Int gear    = Intelligence
+# Heavy stuff = Burden
+
+
