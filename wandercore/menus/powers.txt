@@ -1,11 +1,11 @@
 # Settings for the PowersMenu display
-pos=0,0,320,416
+pos=0,0,480,512
 align=right
 soundfx_open=soundfx/inventory/inventory_page.ogg
 soundfx_close=soundfx/inventory/inventory_book.ogg
 
-label_title=160,8,center,top
-close=294,2
+label_title=240,60,center,top
+close=420,36
 unspent_points=160,396,center,top
 
 tab_area=32,30,240,348

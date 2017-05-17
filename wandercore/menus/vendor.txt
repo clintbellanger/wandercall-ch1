@@ -2,14 +2,14 @@
 # the first two values are x,y positions
 # some items have two more values, width and height
 
-pos=0,0,320,416
+pos=0,0,480,512
 align=left
 soundfx_open=soundfx/inventory/inventory_page.ogg
 soundfx_close=soundfx/inventory/inventory_book.ogg
 
-label_title=160,8,center,top
-close=294,2
+label_title=240,60,center,top
+close=420,36
 
-slots_area=32,64
-vendor_cols=8
-vendor_rows=10
+slots_area=48,80
+vendor_cols=6
+vendor_rows=6

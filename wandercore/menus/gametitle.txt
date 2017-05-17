@@ -1,0 +1,6 @@
+logo=images/menus/wandercall_logo.png,0,-64,center
+
+play_pos=0,-140,bottom
+config_pos=0,-100,bottom
+credits_pos=0,-60,bottom
+exit_pos=0,-20,bottom

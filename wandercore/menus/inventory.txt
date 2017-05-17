@@ -4,18 +4,18 @@
 
 pos=0,0,480,512
 align=right
-#soundfx_open=soundfx/inventory/inventory_page.ogg
-#soundfx_close=soundfx/inventory/inventory_book.ogg
+soundfx_open=soundfx/inventory/inventory_page.ogg
+soundfx_close=soundfx/inventory/inventory_book.ogg
 
 close=420,36
 help=36,36,24,24
 
 # define x,y position, slot type
-#equipment_slot=80,112,head
-#equipment_slot=144,112,chest
-#equipment_slot=208,112,legs
-#equipment_slot=272,112,hands
-#equipment_slot=336,112,feet
+equipment_slot=80,112,head
+equipment_slot=144,112,chest
+equipment_slot=208,112,legs
+equipment_slot=272,112,hands
+equipment_slot=336,112,feet
 
 carried_area=48,272
 carried_cols=6

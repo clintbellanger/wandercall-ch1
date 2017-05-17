@@ -1,25 +1,27 @@
 # Settings for actionbar menu
 # pos is x,y,width,height
 
-pos=0,0,640,35
+pos=0,0,960,112
 align=bottom
 
-slot=1,32,3
-slot=2,64,3
-slot=3,96,3
-slot=4,128,3
-slot=5,160,3
-slot=6,192,3
-slot=7,224,3
-slot=8,256,3
-slot=9,288,3
-slot=10,320,3
+slot_M1=64,16
+slot_M2=128,16
+slot=3,192,16
+slot=4,256,16
+slot=5,320,16
+slot=6,384,16
+slot=7,448,16
+slot=8,512,16
 
-slot_M1=384,3
-slot_M2=416,3
+# TODO: not sure if skipping non-consecutive slots will work
+# trying this to avoid confusing slot M! with slot 1?
+#slot=1,x,y
+#slot=2,x,y
+#slot=9,x,y
+#slot=10,x,y
 
-char_menu=480,3
-inv_menu=512,3
-powers_menu=544,3
-log_menu=576,3
+char_menu=640,16
+inv_menu=704,16
+powers_menu=768,16
+log_menu=832,16
 
