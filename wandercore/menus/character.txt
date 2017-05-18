@@ -8,22 +8,44 @@ soundfx_open=soundfx/inventory/inventory_page.ogg
 soundfx_close=soundfx/inventory/inventory_book.ogg
 
 close=430,22
-label_title=240,60,center,top
+label_title=240,48,center,center
 
-upgrade_physical=40,56
-upgrade_mental=40,80
-upgrade_offense=40,104
-upgrade_defense=40,128
+upgrade_primary=vigor,52,132
+upgrade_primary=attunement,52,180
+upgrade_primary=defense,52,228
+upgrade_primary=strength,244,132
+upgrade_primary=dexterity,244,180
+upgrade_primary=intelligence,244,228
 
-statlist=192,128
-statlist_rows=15
+primary=vigor,80,128,32,32
+label_primary=vigor,128,144,left,center
+
+primary=attunement,80,176,32,32
+label_primary=attunement,128,192,left,center
+
+primary=defense,80,224,32,32
+label_primary=defense,128,240,left,center
+
+###
+
+primary=strength,272,128,32,32
+label_primary=strength,320,144,left,center
+
+primary=dexterity,272,176,32,32
+label_primary=dexterity,320,192,left,center
+
+primary=intelligence,272,224,32,32
+label_primary=intelligence,320,240,left,center
+
+statlist=48,280
+statlist_rows=8
 statlist_scrollbar_offset=1
 
-name=80,32,104,16
-label_name=72,40,right,center
+label_name=-999,-999
+name=80,80,224,32,32
 
-level=256,32,32,16
-label_level=248,40,right,center
+level=368,80,32,32
+label_level=360,96,right,center
 
-unspent=160,396,center,top
+unspent=240,256,center,top
 

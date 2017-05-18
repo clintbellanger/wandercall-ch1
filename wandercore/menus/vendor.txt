@@ -7,7 +7,7 @@ align=left
 soundfx_open=soundfx/inventory/inventory_page.ogg
 soundfx_close=soundfx/inventory/inventory_book.ogg
 
-label_title=240,60,center,top
+label_title=240,48,center,center
 close=430,22
 
 slots_area=48,80
