@@ -27,5 +27,5 @@ carried_area=48,272
 carried_cols=6
 carried_rows=3
 
-label_title=240,48,center,center
+label_title=240,48,center,center,font_bold
 currency=420,256,right,center

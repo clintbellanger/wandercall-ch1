@@ -6,7 +6,7 @@ pos=0,0,480,512
 align=left
 soundfx_open=soundfx/wood_open.ogg
 
-label_title=240,48,center,center
+label_title=240,48,center,center,font_bold
 close=430,22
 currency=288,48,right,center
 

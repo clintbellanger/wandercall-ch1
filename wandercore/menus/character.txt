@@ -8,7 +8,7 @@ soundfx_open=soundfx/inventory/inventory_page.ogg
 soundfx_close=soundfx/inventory/inventory_book.ogg
 
 close=430,22
-label_title=240,48,center,center
+label_title=240,48,center,center,font_bold
 
 upgrade_primary=vigor,52,132
 upgrade_primary=attunement,52,180

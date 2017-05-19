@@ -4,7 +4,7 @@ align=right
 soundfx_open=soundfx/inventory/inventory_page.ogg
 soundfx_close=soundfx/inventory/inventory_book.ogg
 
-label_title=240,48,center,center
+label_title=240,48,center,center,font_bold
 close=430,22
 unspent_points=160,396,center,top
 
