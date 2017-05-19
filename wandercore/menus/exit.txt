@@ -1,10 +1,10 @@
-pos=0,0,318,207
+pos=0,0,400,320
 align=center
 
-title=159,8,center,top,font_bold
-exit=88,175
-continue=88,147
+title=200,48,center,center,font_bold
 
-music_volume=159,32,55,48
-sound_volume=159,80,55,96
+music_volume=200,80,95,96
+sound_volume=200,136,95,154
 
+continue=72,200
+exit=72,240
