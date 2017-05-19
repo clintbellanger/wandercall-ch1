@@ -1,48 +1,56 @@
 # Avatar Attributes Definitions
 # Values should be integer
 
-max_points_per_stat=5
+max_points_per_stat=99
+stat_points_per_level=5
+
 stat=hp,50
 stat_per_level=hp,10
-stat_per_physical=hp,40
+stat_per_primary=vigor,hp,30
+
 stat=hp_regen,50
 stat_per_level=hp_regen,5
-stat_per_physical=hp_regen,20
-stat=mp,10
-stat_per_level=mp,2
-stat_per_mental=mp,8
+stat_per_primary=vigor,hp_regen,10
+
+stat=mp,20
+stat_per_level=mp,5
+stat_per_primary=attunement,mp,15
+
 stat=mp_regen,10
-stat_per_level=mp_regen,1
-stat_per_mental=mp_regen,4
-stat=accuracy,75
-stat_per_level=accuracy,5
-stat_per_offense=accuracy,5
+stat_per_level=mp_regen,2
+stat_per_primary=attunement,mp_regen,6
+
+stat=accuracy,90
+stat_per_level=accuracy,1
+
 stat=avoidance,25
 stat_per_level=avoidance,1
-stat_per_defense=avoidance,5
+stat_per_primary=defense,avoidance,1
+
 stat=crit,5
 stat_per_level=crit,1
 
-stat=dmg_melee_min,10
-stat=dmg_melee_max,50
-stat_per_physical=dmg_melee_min,5
-stat_per_physical=dmg_melee_max,5
+stat=dmg_melee_min,0
+stat=dmg_melee_max,0
+stat_per_primary=strength,dmg_melee_min,5
+stat_per_primary=strength,dmg_melee_max,5
 
 stat=dmg_ment_min,0
-stat=dmg_ment_max,15
-stat_per_mental=dmg_ment_min,5
-stat_per_mental=dmg_ment_max,5
+stat=dmg_ment_max,0
+stat_per_primary=intelligence,dmg_ment_min,5
+stat_per_primary=intelligence,dmg_ment_max,5
 
 stat=dmg_ranged_min,0
-stat=dmg_ranged_max,15
-stat_per_offense=dmg_ranged_min,5
-stat_per_offense=dmg_ranged_max,5
+stat=dmg_ranged_max,0
+stat_per_primary=dexterity,dmg_ranged_min,5
+stat_per_primary=dexterity,dmg_ranged_max,5
 
 #absorb_min=0
 #absorb_max=0
-stat_per_defense=absorb_min,5
-stat_per_defense=absorb_max,5
+stat_per_primary=defense,absorb_min,5
+stat_per_primary=defense,absorb_max,5
 
 speed=5
 
 sfx_step=cloth
+

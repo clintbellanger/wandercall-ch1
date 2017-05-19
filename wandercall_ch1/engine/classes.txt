@@ -16,7 +16,7 @@ name=Lumberjack
 description=Carries an axe. Tough as nails.
 #currency=144
 equipment=10,11
-primary=vitality,1
+primary=vigor,1
 actionbar=0,0,0,0,0,0,0,0,0,0,1,2
 
 [class]
@@ -32,7 +32,7 @@ name=Guard
 description=Wields a baton and shield. Prefers defense.
 #currency=144
 equipment=10,11
-primary=burden,1
+primary=defense,1
 actionbar=0,0,0,0,0,0,0,0,0,0,1,2
 
 

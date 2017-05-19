@@ -8,7 +8,7 @@ soundfx_open=soundfx/inventory/inventory_page.ogg
 soundfx_close=soundfx/inventory/inventory_book.ogg
 
 close=430,22
-label_title=240,48,center,center,font_bold
+label_title=240,32,center,center,font_bold
 
 upgrade_primary=vigor,52,132
 upgrade_primary=attunement,52,180
@@ -17,24 +17,24 @@ upgrade_primary=strength,244,132
 upgrade_primary=dexterity,244,180
 upgrade_primary=intelligence,244,228
 
-primary=vigor,80,128,32,32
+primary=vigor,80,128,32,32,font_bold
 label_primary=vigor,128,144,left,center
 
-primary=attunement,80,176,32,32
+primary=attunement,80,176,32,32,font_bold
 label_primary=attunement,128,192,left,center
 
-primary=defense,80,224,32,32
+primary=defense,80,224,32,32,font_bold
 label_primary=defense,128,240,left,center
 
 ###
 
-primary=strength,272,128,32,32
+primary=strength,272,128,32,32,font_bold
 label_primary=strength,320,144,left,center
 
-primary=dexterity,272,176,32,32
+primary=dexterity,272,176,32,32,font_bold
 label_primary=dexterity,320,192,left,center
 
-primary=intelligence,272,224,32,32
+primary=intelligence,272,224,32,32,font_bold
 label_primary=intelligence,320,240,left,center
 
 statlist=48,280

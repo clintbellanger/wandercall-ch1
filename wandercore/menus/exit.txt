@@ -1,7 +1,7 @@
 pos=0,0,400,320
 align=center
 
-title=200,48,center,center,font_bold
+title=200,32,center,center,font_bold
 
 music_volume=200,80,95,96
 sound_volume=200,136,95,154
