@@ -37,8 +37,8 @@ label_primary=dexterity,320,192,left,center
 primary=intelligence,272,224,32,32,font_bold
 label_primary=intelligence,320,240,left,center
 
-statlist=48,280
-statlist_rows=8
+statlist=48,288
+statlist_rows=7
 statlist_scrollbar_offset=1
 
 label_name=-999,-999
@@ -47,5 +47,5 @@ name=80,80,224,32,32
 level=368,80,32,32
 label_level=360,96,right,center
 
-unspent=240,256,center,top
+unspent=240,260,center,top
 
