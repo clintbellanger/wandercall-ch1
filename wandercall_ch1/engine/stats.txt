@@ -23,7 +23,7 @@ stat_per_primary=attunement,mp_regen,6
 stat=accuracy,90
 stat_per_level=accuracy,1
 
-stat=avoidance,25
+stat=avoidance,0
 stat_per_level=avoidance,1
 stat_per_primary=defense,avoidance,1
 

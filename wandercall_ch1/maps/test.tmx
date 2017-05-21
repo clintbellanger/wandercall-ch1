@@ -5,28 +5,28 @@
  </properties>
  <tileset firstgid="1" name="floor_1x1.png" tilewidth="128" tileheight="96" tilecount="1" columns="1">
   <tileoffset x="0" y="28"/>
-  <image source="../../../../../wandercall/wandercall-assets/tiles/templates/examples/floor_1x1.png" width="128" height="96"/>
+  <image source="../../../wandercall-assets/tiles/templates/examples/floor_1x1.png" width="128" height="96"/>
  </tileset>
  <tileset firstgid="2" name="floor_2x2.png" tilewidth="256" tileheight="192" tilecount="1" columns="1">
   <tileoffset x="0" y="76"/>
-  <image source="../../../../../wandercall/wandercall-assets/tiles/templates/examples/floor_2x2.png" width="256" height="192"/>
+  <image source="../../../wandercall-assets/tiles/templates/examples/floor_2x2.png" width="256" height="192"/>
  </tileset>
  <tileset firstgid="3" name="tall_walls.png" tilewidth="128" tileheight="256" tilecount="4" columns="4">
-  <image source="../../../../../wandercall/wandercall-assets/tiles/templates/examples/tall_walls.png" width="512" height="256"/>
+  <image source="../../../wandercall-assets/tiles/templates/examples/tall_walls.png" width="512" height="256"/>
  </tileset>
  <layer name="background" width="80" height="40">
   <data encoding="base64" compression="zlib">
-   eJztlUEOhCAMANX/P9rDHlZKW1pQA3EmISoI6tjSbYuzNxr44G8Myxf+aiwf+NM5xLGVq+SvD/5yaPEnwZ9NxEe2H0oy/mR98daM3LcSh9IXiUvZZC2yatQXalZPXn+RazxoY56/a3wdWx1vkfHsnNnoiaO7489bb/bc1fap1j9/4ntaNWdWfx5v7X+t9fCnz9+Na/mMVevxG/5G26w8+e53+pvVIf7mBX9jWA7wFwN/Y7Qc4M8n4gF/NlkX+KvBXz89OYm/kjsdfpGeGou/P/gbI+uP/a8Ef2Ps4jyTr/j74Tm0+nGn4/nAHwAArM4J8lECNw==
+   eJztltEOwyAIRW33//+8LHtoi4IgaGl6T9Js0ansBIql6Nk6TzS982acORP488HFHvlfNM6e4I+L7Q5/mhh+fIJiGGEnn9Y8eLs/SgZ/1t9kyz9KBn/SmXf6s9SNdtwbhzXGTPXbwuKP9hdpT7oPt99T/O2NMWtebKXuRVyPiupZWfy1GKnr1WTwd86H1pzk75xfe6nzTTNvXXMmi7+RNZH5p+2/lCz+pBzg1kTXr+b+R8ngT2LV+097f6a81R+tyVaNcvMz7vCzWOHP+2RlZuyR/rI6hL+8wJ8PzgH86YA/Hz0H8Cej8QB/PFYX8FcDf+OM1CT8XYl0+EZGeiz8HcCfD6s/vP+uwJ+PjXy31Cv8/ZEccuNw10byAX8AAACezhedPgKn
   </data>
  </layer>
  <layer name="object" width="80" height="40">
   <data encoding="base64" compression="zlib">
-   eJzt10EKgCAARUGhuv+Va9lCRfhEpTPgpkXYQ7NKGbdf4+gM+ra3J/Bz+rXV9ibjrK2Mfhn9Mvp9S+0sGr02I+szo98YnTL6ZfRjNfd/75bZv28SK7wznnxG/b577xXol9Evo19Gv4x+Gf0y+mX0AwAAAGZ2AixXANw=
+   eJzt2EkKgDAQRFFBvf+VdSkSMlBp7U7/B9m4SMoyDrht/Y57nJUxW2s9izUt7YuvZ+2L83nuuUhK98ofou45L7m95BjlJbeXHKO85G7l8JLzzUuuqP3NVnoX9R6rzRdVlutuhf760JOG/jT0h2x6/hlE/36xlOGZYXmO9Od37gzoT0N/GvrT0J+G/jT0p6E/Df0BAAAAAICVXdFDATg=
   </data>
  </layer>
- <layer name="collision" width="80" height="40" visible="0">
+ <layer name="collision" width="80" height="40">
   <data encoding="base64" compression="zlib">
-   eJztmW0LhSAMhev//+n7KW4NnTtusonngUCStnww37ouO7fhIn1GfuhPR/qRfe5kf5Zvk/76RLSd/vJj7Eqr7ejcSn/9e7Lc8nq6P82HtZxxVcLjL4Ps/BL684GOc9nvn51fgs6zK8a/UTxZXwmvv4j896vcq4vKF421X4zKnvzyXUb1lefjh5X+tPajfnbxN+qXs7G9VO2D6LgYHTszXgT052PlXuoEfytptdfjgP7oD6Hnb3ZMoL///RmH9PetQ+co+vvW0Z+O1cnue7hVWNtrdUh/vmfoz/cM/dWKVx368/E+r9fW0mi8U5D/PLT9HBLrJLQzba79MND/IRFnkIQQQjB+Kq4BJg==
+   eJztmVEOhCAMBfX+l97P1UZoH21tiW8SE7JoKSOLiMdh5zQckVjai24zEy3XDH8R53RB5irvf0Rf0LHVxd/KfyXLn5abdn4FWX2PiDG7R/Q3jvE05nbyVzEXafPBbv5GZcvY8Oaxm7+ZD2s54tDiybw74fFXQXX7Evrzgc5z1flXty9Bn7OV8591XfAmXn8R7Z+X8qguqr1orONCK3val7lo9eg6tYJMf9r6BPGziz9tXK7G9tJ1DKLzYnTsyngR0J8PdO2Bxo6ko79MnvrrcUB/9Icw8rc6J9Df//cVh/R3r0OfUfR3r6O/OVYnu7/DZWHtr9Uh/fmuoT/fNfTXK1536M/Hdb9+tpZG430F+c1j9j6HxPoSsz1trv0w0O8hEXuQhBBCMH6taAFK
   </data>
  </layer>
  <objectgroup name="enemy">

@@ -74,3 +74,26 @@ requires_item=3
 cooldown=500ms
 buff=true
 post_effect=mp_restore,50,33ms
+
+
+[power]
+id=99
+#name=Spikeball [enemy]
+type=missile
+icon=0
+new_state=swing
+face=true
+directional=true
+requires_los=true
+animation=animations/powers/spikeball.txt
+use_hazard=true
+aim_assist=true
+starting_pos=melee
+base_damage=ranged
+lifespan=5000ms
+radius=1.5
+speed=6
+cooldown=3s
+soundfx_hit=soundfx/powers/melee_damage.ogg
+wall_reflect=true
+multitarget=true

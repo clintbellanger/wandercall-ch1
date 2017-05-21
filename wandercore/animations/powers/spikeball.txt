@@ -1,0 +1,12 @@
+
+image=images/powers/spikeball.png
+
+render_size=128,256
+render_offset=64,224
+
+[power]
+position=0
+frames=16
+duration=800ms
+type=looped
+

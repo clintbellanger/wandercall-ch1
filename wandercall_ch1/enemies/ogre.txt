@@ -25,13 +25,18 @@ melee_range=1.1875
 threat_range=8.0
 
 power=melee,3,10
+power=ranged,99,10
 
 stat=accuracy,90
 stat=avoidance,0
 
-stat=dmg_melee_min,20
-stat=dmg_melee_max,50
+stat=dmg_melee_min,30
+stat=dmg_melee_max,70
 cooldown=1s
+
+stat=dmg_ranged_min,20
+stat=dmg_ranged_max,40
+
 
 cooldown_hit=266ms
 
