@@ -15,7 +15,7 @@ sfx_critdie=soundfx/enemies/minotaur_critdie.ogg
 
 
 # combat stats
-stat=hp,200
+stat=hp,100
 speed=3
 melee_range=1.5
 turn_delay=400ms
@@ -29,9 +29,16 @@ power=melee,3,10
 stat=accuracy,90
 stat=avoidance,0
 
-stat=dmg_melee_min,15
-stat=dmg_melee_max,25
+stat=dmg_melee_min,20
+stat=dmg_melee_max,50
 cooldown=1s
 
 cooldown_hit=266ms
+
+# loot
+#loot=loot/loot_common.txt
+
+loot=currency,50,5,15
+loot=2,20
+loot=3,20
 

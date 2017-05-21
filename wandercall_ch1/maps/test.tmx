@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="isometric" renderorder="right-down" width="20" height="20" tilewidth="128" tileheight="64" nextobjectid="5">
+<map version="1.0" orientation="isometric" renderorder="right-down" width="80" height="40" tilewidth="128" tileheight="64" nextobjectid="13">
  <properties>
   <property name="tileset" value="tilesetdefs/tileset_demo.txt"/>
  </properties>
@@ -14,19 +14,19 @@
  <tileset firstgid="3" name="tall_walls.png" tilewidth="128" tileheight="256" tilecount="4" columns="4">
   <image source="../../../../../wandercall/wandercall-assets/tiles/templates/examples/tall_walls.png" width="512" height="256"/>
  </tileset>
- <layer name="background" width="20" height="20">
+ <layer name="background" width="80" height="40">
   <data encoding="base64" compression="zlib">
-   eJxjYCAeMBLApAJam4cuTkgvITPxmceERhPyG6n+pdQ8bO4j1XxC6nHJ4/ILKYAS85iwiA0W9zFS2X2U5BtccuhpB50mxTxy3DEczaO0PKC1ecQCABY6AJg=
+   eJztlUEOhCAMANX/P9rDHlZKW1pQA3EmISoI6tjSbYuzNxr44G8Myxf+aiwf+NM5xLGVq+SvD/5yaPEnwZ9NxEe2H0oy/mR98daM3LcSh9IXiUvZZC2yatQXalZPXn+RazxoY56/a3wdWx1vkfHsnNnoiaO7489bb/bc1fap1j9/4ntaNWdWfx5v7X+t9fCnz9+Na/mMVevxG/5G26w8+e53+pvVIf7mBX9jWA7wFwN/Y7Qc4M8n4gF/NlkX+KvBXz89OYm/kjsdfpGeGou/P/gbI+uP/a8Ef2Ps4jyTr/j74Tm0+nGn4/nAHwAArM4J8lECNw==
   </data>
  </layer>
- <layer name="object" width="20" height="20">
+ <layer name="object" width="80" height="40">
   <data encoding="base64" compression="zlib">
-   eJxjYCAesAAxKx5MKmAmQw+1zMPmF3rZPWrewIPBEh6DxR30Mm8UQMBwiScA8zsAZw==
+   eJzt10EKgCAARUGhuv+Va9lCRfhEpTPgpkXYQ7NKGbdf4+gM+ra3J/Bz+rXV9ibjrK2Mfhn9Mvp9S+0sGr02I+szo98YnTL6ZfRjNfd/75bZv28SK7wznnxG/b577xXol9Evo19Gv4x+Gf0y+mX0AwAAAGZ2AixXANw=
   </data>
  </layer>
- <layer name="collision" width="20" height="20" visible="0">
+ <layer name="collision" width="80" height="40" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYCAeMBKBSQGE1FNqHrqb0Nmk+oeQeZQCeptHatwRYx4uNjZ7cKkhxjxquGkwmkduOOATI2Qnvc0jlNeokcdobR4hd5NiHiVqaGkeMRgAc+sAdQ==
+   eJztmW0LhSAMhev//+n7KW4NnTtusonngUCStnww37ouO7fhIn1GfuhPR/qRfe5kf5Zvk/76RLSd/vJj7Eqr7ejcSn/9e7Lc8nq6P82HtZxxVcLjL4Ps/BL684GOc9nvn51fgs6zK8a/UTxZXwmvv4j896vcq4vKF421X4zKnvzyXUb1lefjh5X+tPajfnbxN+qXs7G9VO2D6LgYHTszXgT052PlXuoEfytptdfjgP7oD6Hnb3ZMoL///RmH9PetQ+co+vvW0Z+O1cnue7hVWNtrdUh/vmfoz/cM/dWKVx368/E+r9fW0mi8U5D/PLT9HBLrJLQzba79MND/IRFnkIQQQjB+Kq4BJg==
   </data>
  </layer>
  <objectgroup name="enemy">
@@ -41,6 +41,46 @@
    </properties>
   </object>
   <object id="4" type="enemy" x="1088" y="64" width="64" height="64">
+   <properties>
+    <property name="category" value="ogre"/>
+   </properties>
+  </object>
+  <object id="5" type="enemy" x="2368" y="1600" width="64" height="64">
+   <properties>
+    <property name="category" value="ogre"/>
+   </properties>
+  </object>
+  <object id="6" type="enemy" x="2432" y="1728" width="64" height="64">
+   <properties>
+    <property name="category" value="ogre"/>
+   </properties>
+  </object>
+  <object id="7" type="enemy" x="2624" y="1792" width="64" height="64">
+   <properties>
+    <property name="category" value="ogre"/>
+   </properties>
+  </object>
+  <object id="8" type="enemy" x="2496" y="1920" width="64" height="64">
+   <properties>
+    <property name="category" value="ogre"/>
+   </properties>
+  </object>
+  <object id="9" type="enemy" x="3200" y="1728" width="64" height="64">
+   <properties>
+    <property name="category" value="ogre"/>
+   </properties>
+  </object>
+  <object id="10" type="enemy" x="3072" y="1408" width="64" height="64">
+   <properties>
+    <property name="category" value="ogre"/>
+   </properties>
+  </object>
+  <object id="11" type="enemy" x="2880" y="1408" width="64" height="64">
+   <properties>
+    <property name="category" value="ogre"/>
+   </properties>
+  </object>
+  <object id="12" type="enemy" x="3136" y="1216" width="64" height="64">
    <properties>
     <property name="category" value="ogre"/>
    </properties>

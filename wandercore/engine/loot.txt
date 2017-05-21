@@ -11,7 +11,7 @@ autopickup_currency=1
 autopickup_range=1
 
 # Currency
-currency_name=Gold
+currency_name=Coins
 vendor_ratio=25
 
 # Drops
