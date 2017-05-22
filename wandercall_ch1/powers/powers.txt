@@ -47,9 +47,7 @@ starting_pos=melee
 aim_assist=true
 soundfx_hit=soundfx/powers/melee_damage.ogg
 post_effect=knockback,8,100ms
-
-
-
+prevent_interrupt=true
 
 [power]
 id=100
