@@ -16,16 +16,15 @@ sfx_critdie=soundfx/enemies/minotaur_critdie.ogg
 
 # combat stats
 stat=hp,100
-speed=3
-melee_range=1.5
+speed=3.5
+melee_range=1.2
 turn_delay=400ms
 chance_pursue=10
 
-melee_range=1.1875
 threat_range=8.0
 
 power=melee,3,10
-power=ranged,99,5
+power=ranged,99,3
 
 stat=accuracy,90
 stat=avoidance,0

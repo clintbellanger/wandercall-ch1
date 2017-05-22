@@ -9,4 +9,5 @@ position=0
 frames=16
 duration=800ms
 type=looped
+active_frame=all
 
