@@ -8,13 +8,18 @@ title=Warrior
 id=1
 tab=0
 position=48,80
-requires_physical=1
 
-# suicide
+# dash
+[power]
+id=4
+tab=0
+position=120,80
+
+# suicide (dev power)
 [power]
 id=2
 tab=0
-position=120,80
-requires_physical=1
+position=120,300
+
 
 

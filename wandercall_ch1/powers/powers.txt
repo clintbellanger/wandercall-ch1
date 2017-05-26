@@ -50,6 +50,22 @@ post_effect=knockback,8,100ms
 prevent_interrupt=true
 
 [power]
+id=4
+name=Dash
+description=Move quickly to dodge incoming attacks
+icon=3
+type=fixed
+new_state=dash
+state_duration=400ms
+#face=true
+charge_speed=7
+cooldown=600ms
+relative_pos=true
+requires_mp=1
+prevent_interrupt=true
+#post_effect=immunity
+
+[power]
 id=100
 type=fixed
 icon=17

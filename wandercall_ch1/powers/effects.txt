@@ -9,6 +9,16 @@ id=hp_restore
 type=hpot_percent
 
 [effect]
+id=mp_restore
+type=mpot_percent
+
+[effect]
 id=knockback
 type=knockback
+can_stack=false
+
+[effect]
+id=immunity
+type=immunity
+icon=15
 can_stack=false

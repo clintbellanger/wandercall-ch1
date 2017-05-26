@@ -6,17 +6,18 @@ align=bottom
 
 slot_M1=64,16
 slot_M2=128,16
-slot=3,192,16
-slot=4,256,16
-slot=5,320,16
-slot=6,384,16
-slot=7,448,16
-slot=8,512,16
+slot=1,192,16
+slot=2,256,16
+slot=3,320,16
+slot=4,384,16
+slot=5,448,16
+slot=6,512,16
 
-# TODO: not sure if skipping non-consecutive slots will work
-# trying this to avoid confusing slot M! with slot 1?
-#slot=1,x,y
-#slot=2,x,y
+# considering having 8 action buttons in the main interface
+# to have parity with common dual stick controllers with
+# 4 face buttons and 4 shoulder buttons.
+#slot=7,x,y
+#slot=8,x,y
 #slot=9,x,y
 #slot=10,x,y
 
