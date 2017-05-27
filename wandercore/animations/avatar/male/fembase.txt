@@ -39,6 +39,5 @@ type=play_once
 [dash]
 position=32
 frames=8
-active_frame=1
 duration=500ms
 type=play_once

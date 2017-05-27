@@ -46,5 +46,6 @@ duration=133ms
 
 [dash]
 frames=8
+active_frame=0
 duration=500ms
 type=play_once
