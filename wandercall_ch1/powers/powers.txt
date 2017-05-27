@@ -56,14 +56,15 @@ description=Move quickly to dodge incoming attacks
 icon=3
 type=fixed
 new_state=dash
-state_duration=400ms
+state_duration=500ms
 #face=true
 charge_speed=7
-cooldown=600ms
+cooldown=750ms
 relative_pos=true
 requires_mp=1
-prevent_interrupt=true
-#post_effect=immunity
+#prevent_interrupt=true
+buff=true
+post_effect=avoidance,1000,500ms
 
 [power]
 id=100

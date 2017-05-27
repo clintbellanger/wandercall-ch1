@@ -22,3 +22,9 @@ id=immunity
 type=immunity
 icon=15
 can_stack=false
+
+[effect]
+id=avoidance
+type=avoidance
+icon=3
+can_stack=true

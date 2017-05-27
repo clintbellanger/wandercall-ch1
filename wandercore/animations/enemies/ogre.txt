@@ -21,7 +21,7 @@ type=looped
 [swing]
 position=16
 frames=8
-duration=1066ms
+duration=1333ms
 type=play_once
 
 [hit]
