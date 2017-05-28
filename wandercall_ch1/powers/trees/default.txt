@@ -15,6 +15,19 @@ id=4
 tab=0
 position=120,80
 
+# backswing
+[power]
+id=5
+tab=0
+position=192,80
+
+# block
+[power]
+id=6
+tab=0
+position=264,80
+
+
 # suicide (dev power)
 [power]
 id=2

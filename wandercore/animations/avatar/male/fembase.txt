@@ -24,6 +24,12 @@ frames=8
 duration=600ms
 type=play_once
 
+[backswing]
+position=40
+frames=8
+duration=600ms
+type=play_once
+
 [die]
 position=24
 frames=8
@@ -31,9 +37,9 @@ duration=1066ms
 type=play_once
 
 [hit]
-position=24
-frames=2
-duration=133ms
+position=52
+frames=4
+duration=200ms
 type=play_once
 
 [dash]
@@ -41,3 +47,10 @@ position=32
 frames=8
 duration=500ms
 type=play_once
+
+[block]
+position=48
+frames=4
+duration=200ms
+type=play_once
+
