@@ -62,26 +62,31 @@ charge_speed=7
 cooldown=750ms
 relative_pos=true
 requires_mp=1
-#prevent_interrupt=true
+prevent_interrupt=true
 buff=true
 post_effect=avoidance,1000,500ms
 
 [power]
 id=5
-name=Backswing
+name=Cleave
 type=fixed
-icon=1
-description=Basic melee attack
+icon=6
+description=Wide attack that hits through multiple opponents
+multitarget=true
 new_state=backswing
 face=true
 use_hazard=true
 base_damage=melee
 lifespan=33ms
-radius=1.0
+radius=1.5
 starting_pos=melee
 aim_assist=true
+multitarget=true
 soundfx_hit=soundfx/powers/melee_damage.ogg
 post_effect=knockback,5,50ms
+modifier_damage=multiply,125,0
+prevent_interrupt=true
+requires_mp=2
 
 [power]
 id=6
@@ -89,7 +94,7 @@ name=Block
 icon=2
 description=Raise your shield to raise your absorb by 50
 type=block
-face=true
+#face=true
 #requires_flags=shield
 post_effect=absorb_min,50,0
 post_effect=absorb_max,50,0

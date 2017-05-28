@@ -51,6 +51,6 @@ type=play_once
 [block]
 position=48
 frames=4
-duration=200ms
+duration=400ms
 type=play_once
 

@@ -26,5 +26,5 @@ can_stack=false
 [effect]
 id=avoidance
 type=avoidance
-icon=3
+#icon=3
 can_stack=true

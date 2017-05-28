@@ -40,7 +40,7 @@ type=play_once
 
 [block]
 frames=4
-duration=200ms
+duration=400ms
 type=play_once
 active_frame=0
 

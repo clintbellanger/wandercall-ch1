@@ -15,7 +15,7 @@ id=4
 tab=0
 position=120,80
 
-# backswing
+# cleave
 [power]
 id=5
 tab=0
