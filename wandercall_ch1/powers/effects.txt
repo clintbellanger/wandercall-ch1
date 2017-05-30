@@ -28,3 +28,13 @@ id=avoidance
 type=avoidance
 #icon=3
 can_stack=true
+
+[effect]
+id=reflect_missile
+type=reflect_chance
+can_stack=false
+
+[effect]
+id=reflect_damage
+type=return_damage
+can_stack=false

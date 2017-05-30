@@ -98,6 +98,8 @@ type=block
 #requires_flags=shield
 post_effect=absorb_min,50,0
 post_effect=absorb_max,50,0
+# parry window, reward just-in-time blocking
+post_effect=reflect_missile,100,200ms
 
 
 [power]

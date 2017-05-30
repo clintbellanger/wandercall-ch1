@@ -42,7 +42,9 @@ type=play_once
 frames=4
 duration=400ms
 type=play_once
-active_frame=0
+# note: usually block is active frame 0
+# slight delay here helps balance parries
+active_frame=1
 
 [hit]
 frames=4

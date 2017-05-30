@@ -2,7 +2,7 @@ name=Ogre
 level=1
 categories=ogre,ruins
 rarity=common
-xp=1
+xp=10
 humanoid=true
 
 animations=animations/enemies/ogre.txt
