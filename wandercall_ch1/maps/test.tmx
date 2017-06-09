@@ -16,15 +16,15 @@
  </tileset>
  <layer name="background" width="80" height="40">
   <data encoding="base64" compression="zlib">
-   eJztltEOwyAIRW33//+8LHtoi4IgaGl6T9Js0ansBIql6Nk6TzS982acORP488HFHvlfNM6e4I+L7Q5/mhh+fIJiGGEnn9Y8eLs/SgZ/1t9kyz9KBn/SmXf6s9SNdtwbhzXGTPXbwuKP9hdpT7oPt99T/O2NMWtebKXuRVyPiupZWfy1GKnr1WTwd86H1pzk75xfe6nzTTNvXXMmi7+RNZH5p+2/lCz+pBzg1kTXr+b+R8ngT2LV+097f6a81R+tyVaNcvMz7vCzWOHP+2RlZuyR/rI6hL+8wJ8PzgH86YA/Hz0H8Cej8QB/PFYX8FcDf+OM1CT8XYl0+EZGeiz8HcCfD6s/vP+uwJ+PjXy31Cv8/ZEccuNw10byAX8AAACezhedPgKn
+   eJztltEOwyAIRbX9/3/ewx5mUSgIOprekzRrtCo7gdJS9NSbK5q781acuRL488HFHvlfNM6e4M8S+2p/0jMtZ1AMMxzk15oHb/dHyeDP+ky2/KNk8Ced+U9/lrrRjnvjsMaYqX5HWPzR/iLtSffh9nuKv2MwZs2LWvpexPWoqJ6Vxd+ImbreTQZ/bT6M5iR/bX4dpc83zbx1TUsWfzNrIvNP238pWfxJOcCtia5fzfcfJYM/iV3vP+33M+Wt/mhNjmqUm1/xDb+KHf68V1ZWxh7pL6tD+MsL/PngHMCfDvjzcecA/mQ0HuCPx+oC/nrgb56ZmoS/K5EO38hMj4W/H/Dnw+oP778r8OejkntLvcLfF8khNw53YyQf8AcAAODpfACD2QKs
   </data>
  </layer>
  <layer name="object" width="80" height="40">
   <data encoding="base64" compression="zlib">
-   eJzt2EkKgDAQRFFBvf+VdSkSMlBp7U7/B9m4SMoyDrht/Y57nJUxW2s9izUt7YuvZ+2L83nuuUhK98ofou45L7m95BjlJbeXHKO85G7l8JLzzUuuqP3NVnoX9R6rzRdVlutuhf760JOG/jT0h2x6/hlE/36xlOGZYXmO9Od37gzoT0N/GvrT0J+G/jT0p6E/Df0BAAAAAICVXdFDATg=
+   eJzt2MsOgCAMRFETH///ybokRgQylLRwT8LGhS0jirpt9Y5nnD+jt1I9i5qW9snrWRsxn3TNXQPq9VJzr4yYT9Q156VvL3208tK3lz5aeem71IeXPt+89BU1v96+3tNqjuX2qIh7cmqV626F/OqQk4b8NOSH1aTf3jkR/1eNssIzw3KO5Of33CsgPw35achPQ34a8tOQn4b8NOQHAAAAAABmdgNyYwFk
   </data>
  </layer>
- <layer name="collision" width="80" height="40">
+ <layer name="collision" width="80" height="40" visible="0">
   <data encoding="base64" compression="zlib">
    eJztmVEOhCAMBfX+l97P1UZoH21tiW8SE7JoKSOLiMdh5zQckVjai24zEy3XDH8R53RB5irvf0Rf0LHVxd/KfyXLn5abdn4FWX2PiDG7R/Q3jvE05nbyVzEXafPBbv5GZcvY8Oaxm7+ZD2s54tDiybw74fFXQXX7Evrzgc5z1flXty9Bn7OV8591XfAmXn8R7Z+X8qguqr1orONCK3val7lo9eg6tYJMf9r6BPGziz9tXK7G9tJ1DKLzYnTsyngR0J8PdO2Bxo6ko79MnvrrcUB/9Icw8rc6J9Df//cVh/R3r0OfUfR3r6O/OVYnu7/DZWHtr9Uh/fmuoT/fNfTXK1536M/Hdb9+tpZG430F+c1j9j6HxPoSsz1trv0w0O8hEXuQhBBCMH6taAFK
   </data>
