@@ -4,9 +4,9 @@
 [header]
 width=1
 height=1
-location=0,0,3
+spawn=0,0,3
 
 [event]
 type=on_load
 location=0,0,1,1
-intermap=maps/test.txt,5,5
+intermap=maps/ruins_plaza.txt,32,32
