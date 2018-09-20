@@ -20,7 +20,7 @@ type=play_once
 
 [backswing]
 frames=8
-duration=800ms
+duration=600ms
 type=play_once
 
 [die]

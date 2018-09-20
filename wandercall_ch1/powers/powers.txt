@@ -86,7 +86,7 @@ soundfx_hit=soundfx/powers/melee_damage.ogg
 post_effect=knockback,5,50ms
 modifier_damage=multiply,125,0
 prevent_interrupt=true
-requires_mp=2
+#requires_mp=2
 
 [power]
 id=6
