@@ -50,7 +50,7 @@ icon=40
 soundfx=soundfx/inventory/inventory_metal.ogg
 gfx=shortsword
 loot_animation=animations/loot/shortsword.txt
-dmg_melee=15,40
+dmg=melee,15,40
 #requires_stat=physical,3
 price=100
 
