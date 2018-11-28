@@ -13,7 +13,7 @@ radius=1.0
 starting_pos=melee
 aim_assist=true
 soundfx_hit=soundfx/powers/melee_damage.ogg
-charge_speed=1
+charge_speed=0.5
 post_effect=knockback,7,100ms
 
 [power]
@@ -47,7 +47,7 @@ radius=1.2
 starting_pos=melee
 aim_assist=true
 soundfx_hit=soundfx/powers/melee_damage.ogg
-charge_speed=0.75
+#charge_speed=0.75
 post_effect=knockback,8,100ms
 prevent_interrupt=true
 
@@ -88,7 +88,7 @@ soundfx_hit=soundfx/powers/melee_damage.ogg
 post_effect=knockback,5,50ms
 modifier_damage=multiply,125,0
 prevent_interrupt=true
-charge_speed=1
+charge_speed=0.5
 post_effect=knockback,7,100ms
 #requires_mp=2
 
