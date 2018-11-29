@@ -5,6 +5,7 @@ tilewidth=128
 tileheight=64
 orientation=isometric
 tileset=tilesetdefs/tileset_garden_ruins.txt
+hero_pos=32,32,3
 
 [tilesets]
 tileset=../../../wandercall-assets/maps/garden ruins/reserved.png,128,64,0,0
