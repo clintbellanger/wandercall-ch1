@@ -13,6 +13,7 @@ soundfx=soundfx/inventory/inventory_coins.ogg
 
 
 [item]
+
 id=2
 name=Potion of Healing
 quality=high
@@ -67,3 +68,10 @@ soundfx=soundfx/inventory/inventory_wood.ogg
 abs=5,15
 #requires_stat=defense,3
 price=140
+
+
+# Chain Armor: 88-92
+INCLUDE items/categories/armor_chain.txt
+
+# Plate Armor: 96-100
+INCLUDE items/categories/armor_plate.txt

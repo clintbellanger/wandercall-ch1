@@ -25,16 +25,23 @@ description=Swings a heavy hammer. Stronger than most.
 #currency=144
 equipment=10,11
 primary=strength,1
-actionbar=0,0,0,0,0,0,0,0,0,0,1,2
+actionbar=0,0,0,0,0,0,0,0,0,0,1,5
 
 [class]
 name=Guard
 description=Wields a baton and shield. Prefers defense.
 #currency=144
-equipment=10,11
+equipment=10,11,88,89,90,91,92
 primary=defense,1
-actionbar=0,0,0,0,0,0,0,0,0,0,1,2
+actionbar=0,0,0,0,0,0,0,0,0,0,1,5
 
+[class]
+name=Knight
+description=Warrior of noble association.
+currency=144
+equipment=10,11,96,97,98,99,100
+primary=defense,1
+actionbar=0,0,0,0,0,0,0,0,0,0,1,5
 
 # Health      = Vigor
 # MP/Stam     = Attunement
