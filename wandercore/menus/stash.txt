@@ -8,7 +8,7 @@ soundfx_open=soundfx/wood_open.ogg
 
 label_title=240,48,center,center,font_bold
 close=430,22
-currency=288,48,right,center
+currency=424,64,right,center
 
 slots_area=48,80
 stash_cols=6
