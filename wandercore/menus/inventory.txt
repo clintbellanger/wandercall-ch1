@@ -13,8 +13,8 @@ help=36,36,24,24
 # define x,y position, slot type
 equipment_slot=80,112,head
 equipment_slot=144,112,chest
-equipment_slot=208,112,legs
-equipment_slot=272,112,hands
+equipment_slot=208,112,hands
+equipment_slot=272,112,legs
 equipment_slot=336,112,feet
 
 equipment_slot=80,176,main
